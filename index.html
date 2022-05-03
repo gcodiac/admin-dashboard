@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Admin</title>
+	</head>
+	<body>
+		<header id="main-header">
+			<nav id="main-nav">
+				<div id="main-nav__left">
+					<a class="menu" href=""><i class="fa-solid fa-bars"></i></a>
+					<a href="">Home</a>
+					<a href="">Contact</a>
+					<input type="text" placeholder="Search" />
+					<i class="fas fa-search"></i>
+				</div>
+				<ul id="main-nav__right">
+					<li>
+						<a href=""><i class="far fa-comments"></i></a>
+					</li>
+					<li>
+						<a href=""><i class="far fa-bell"></i></a>
+					</li>
+					<li>
+						<a href=""><i class="fa-solid fa-language"></i></a>
+					</li>
+					<!--         <li><a href=""><img src="https://i.pravatar.cc/30" alt="">user</a></li> -->
+				</ul>
+			</nav>
+			<h1>Staff Dashboard</h1>
+		</header>
+
+		<!-- ===================CONTENT=================== -->
+		<div id="wrapper">
+			<!-- ===================SIDEBAR NAV=================== -->
+			<aside id="sidebar-nav">
+				<!-- ----------sidebar logo------------- -->
+				<a href="" id="sidebar-nav__logo"><i class="fa-brands fa-google-drive"></i> AliCMS</a>
+				<!-- --------sidebar user details-------- -->
+				<div id="sidebar-nav__user">
+					<img id="sidebar-nav__user-image" src="https://i.pravatar.cc/30" alt="" />
+					<div id="sidebar-nav__user-info">
+						<span class="user-info_name">Welcome Ali </span>
+						<span class="status">online</span>
+					</div>
+				</div>
+
+				<!-- --------------sidebar list expanded------------ -->
+				<ul class="sidebar-nav__list">
+					<li>
+						<a href="">
+							<i class="nav-icon fas fa-book"></i>
+							<span class="sidebar-nav_title">Category <i class="fas fa-chevron-left"></i></span>
+						</a>
+						<ul class="sublist">
+							<li>
+								<a href="">
+									<i class="fa fa-plus-circle" aria-hidden="true"></i>
+									<span class="sidebar-nav_title">Add <small class="number">7</small></span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="fa fa-code" aria-hidden="true"></i>
+									<span class="sidebar-nav_title">Coding<small class="number">3</small></span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="fas fa-edit"></i>
+									<span class="sidebar-nav_title">Edit<small class="number">10</small></span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="fas fa-upload"></i>
+									<span class="sidebar-nav_title">Upload<small class="number">12</small></span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="">
+							<i class="fa-solid fa-file-import"></i>
+							<span class="sidebar-nav_title">Category <i class="fas fa-chevron-left"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fa-brands fa-accusoft"></i>
+							<span class="sidebar-nav_title">Category<i class="fas fa-chevron-left"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fa-solid fa-atom"></i>
+							<span class="sidebar-nav_title">Category <i class="fas fa-chevron-left"></i></span>
+						</a>
+					</li>
+				</ul>
+				<hr />
+				<!-- --------------sidebar list expanded------------ -->
+				<ul class="sidebar-nav__list">
+					<li>
+						<a href="">
+							<i class="fa-solid fa-file-import"></i>
+							<span class="sidebar-nav_title">Category <i class="fas fa-chevron-left"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fa-solid fa-file-import"></i>
+							<span class="sidebar-nav_title">Category <i class="fas fa-chevron-left"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fa-solid fa-file-import"></i>
+							<span class="sidebar-nav_title">Category <i class="fas fa-chevron-left"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fa-solid fa-file-import"></i>
+							<span class="sidebar-nav_title">Category <i class="fas fa-chevron-left"></i></span>
+						</a>
+					</li>
+				</ul>
+			</aside>
+			<!-- ===================MAIN SECTION=================== -->
+			<main id="main"></main>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
